@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapercave.com/wp/wp2610925.jpg');
+      background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    color: rgb(101, 11, 11);
+    font-weight: bold;
+}
+.container
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator
+{
+    display: grid;
+    grid-template-columns:repeat(4,68px);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(50, 26, 157);
+    box-shadow: inset 5px 5px 12px #130b8c,5px 5px 5px rgb(98, 3, 12);
+}
+input
+{
+    grid-column: span 4;
+    height: 70px;
+    box-shadow: inset 5px 5px 12px #18b40a,5px 5px 5px rgba(0,0,.16);
+    border-radius: 20px;
+    color: rgb(19, 11, 11);
+    text-align: end;
+    font-size: 30px;
+   /* margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;*/
+    padding: 10px;
+}
+button
+{
+   height:48px;
+   width: 48px;
+   border-radius: 90%;
+   border: 0;
+   box-shadow: inset 5px 5px 12px #690303,5px 5px 5px rgb(22, 142, 6);
+   margin: 10px;
+   font-size: 25px;
+}
+.equal
+{
+    width: 115px;
+    border-radius: 50px;
+}
